@@ -1,0 +1,18 @@
+/*Put custom css here*/
+.vertical-align {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.console {
+  font-family:"Lucida Console";
+  color: #CCCCCC;
+  background: #000000;
+  border: 3px double #CCCCCC;
+  padding: 10px;
+}
+
+.smallMargin {
+  margin: 5px 5px 5px 5px;
+}
