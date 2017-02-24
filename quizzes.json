@@ -17,13 +17,26 @@
             "questionText":"What is your age bracket",
             "usersAnswer":"",
             "answers": [
-               {"id": 1, "answerText": "12-18"},
+               {"id": 1, "answerText": "0-18"},
                {"id": 2, "answerText": "19-30"},
-               {"id": 2, "answerText": "31-50"}
+               {"id": 3, "answerText": "31-50"},
+               {"id": 3, "answerText": "55-70"},
+               {"id": 3, "answerText": "70+"}
             ]
          },
          {
             "id":3,
+            "questionText":"Who will score the first goal",
+            "usersAnswer":"",
+            "answers": [
+               {"id": 1, "answerText": "Messi"},
+               {"id": 2, "answerText": "Iniesta"},
+               {"id": 3, "answerText": "Suarez"},
+               {"id": 4, "answerText": "Probably Messi"}
+            ]
+         },
+         {
+            "id":4,
             "questionText":"Where is the head quarters of Barca's new sponsor Rakuten",
             "usersAnswer":"",
             "answers": [
@@ -34,17 +47,6 @@
             ]
          },
          {
-            "id":4,
-            "questionText":"Who will score the first goal",
-            "usersAnswer":"",
-            "answers": [
-               {"id": 1, "answerText": "Messi"},
-               {"id": 2, "answerText": "Messi"},
-               {"id": 3, "answerText": "Messi"},
-               {"id": 4, "answerText": "Probably Messi"}
-            ]
-         },
-         {
             "id":5,
             "questionText":"Which is not part of the Rakuten ecosystem",
             "usersAnswer":"",
@@ -52,7 +54,7 @@
                {"id": 1, "answerText": "Kobo"},
                {"id": 2, "answerText": "E-commerce"},
                {"id": 3, "answerText": "wuaki"},
-               {"id": 4, "answerText": "Something Else"},
+               {"id": 4, "answerText": "Something Else", "correctAnswer": true},
                {"id": 5, "answerText": "Finance"}
             ]
          }
