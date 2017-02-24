@@ -6,14 +6,20 @@
 }
 
 .console {
-    font-family:"Lucida Console";
-    padding: 10px;
+  font-family:"Lucida Console";
+  padding: 10px;
 }
 
 .smallMargin {
-    margin: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
 }
 
 .barcaBlue {
     color: #004B96;
 }
+
+body, .root {
+    background-color: transparent !important;
+    color: white !important;
+}
+
